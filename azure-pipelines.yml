@@ -17,3 +17,7 @@ steps:
     npm run build
     npm test
   displayName: 'npm install and build and test'
+
+- run: |
+    node server.js
+  displayName: 'running calc'
