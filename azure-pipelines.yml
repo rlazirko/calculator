@@ -16,3 +16,6 @@ steps:
     npm install
     npm test
   displayName: 'npm install and build and test'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
