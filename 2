@@ -21,7 +21,7 @@ pipeline {
         sh 'npm test'
       }
     }
-    stage('Deliver') {
+    stage('Delivery') {
       steps {
         sh '''node server.js &
 echo $! > .pidfile'''
