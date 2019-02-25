@@ -1,4 +1,4 @@
-FROM node:4.6
+FROM node:6-alpine
 
 ENV APP_HOME /app
 RUN mkdir -pv $APP_HOME
